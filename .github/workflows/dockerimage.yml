@@ -11,7 +11,7 @@ jobs:
  
     steps:
     - uses: actions/checkout@v1
-    - name: Build the Docker image
+    - name: Build the Docker images
       run: docker build . --file Dockerfile --tag sandesh2026/addressbook:v0.2
     - name: Docker credential
       run: docker login docker.io --username=sandesh2026 --password=DreamGoal#2030
