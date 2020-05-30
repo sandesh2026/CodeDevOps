@@ -46,6 +46,7 @@ To checkout and run the project in NetBeans, do:
 You should now have a GlassFish server running on localhost:8080 and a browser tab should also be automatically opened with this location
 
 //added a comment
+//add
 
 Importing in Eclipse
 --------------------
